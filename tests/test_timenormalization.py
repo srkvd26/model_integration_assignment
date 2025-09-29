@@ -3,8 +3,7 @@ from utils.normalize_time import normalize_time
 from utils.excel_read import ExcelRead
 
 
-EXCEL_FILE = "data/testdata.xlsx"
-excel_data = ExcelRead.read(EXCEL_FILE)
+excel_data = ExcelRead.read("data/testdata.xlsx")
 
 
 @pytest.mark.parametrize("row", excel_data, ids=lambda row: f"input={row['input']}")

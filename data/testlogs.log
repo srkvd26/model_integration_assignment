@@ -1,0 +1,4 @@
+2025-09-29 07:52:58,912 - INFO - Running test case | input='105620' | expected='10:56:20 AM' | actual='10:56:20 AM'
+2025-09-29 07:52:58,921 - INFO - Running test case | input='1530' | expected='3:30 PM' | actual='3:30 PM'
+2025-09-29 07:52:58,928 - INFO - Running test case | input='2500' | expected='1:00 AM' | actual='1:00 AM'
+2025-09-29 07:52:58,937 - INFO - Running test case | input='07:05:00' | expected='7:05 AM' | actual='7:05:00 AM'
