@@ -1,0 +1,4 @@
+2025-10-02 00:58:12,578 - INFO - Running test case | input=(1, 88, 96, 10, 112) | expected=(0.75, High) | actual=(0.75, High)
+2025-10-02 00:58:12,578 - INFO - Running test case | input=(0, 88, 96, 10, 112) | expected=(0.5, Medium) | actual=(0.5, Medium)
+2025-10-02 00:59:56,281 - INFO - Running test case | input=(1, 88, 96, 10, 112) | expected=(0.75, High) | actual=(0.75, High)
+2025-10-02 00:59:56,281 - INFO - Running test case | input=(0, 88, 96, 10, 112) | expected=(0.5, Medium) | actual=(0.5, Medium)
