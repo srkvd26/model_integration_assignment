@@ -1,4 +1,5 @@
 import pytest
+import requests
 from utils.normalize_values import Normalizer
 from utils.risk_calculation import risk_calculation
 from utils.excel_read import ExcelRead
@@ -31,6 +32,19 @@ def test_model_prediction(row, logger):
     )
 
     # Passing normalized values to the model
+    
+    # payload = {
+    #         "dbt": int(n_dbt),
+    #         "spo2": float(n_spo2),
+    #         "temp": float(n_temp),
+    #         "age": int(n_age),
+    #         "hrate": int(n_hrate)
+    #     }
+    # resp = requests.post("http://127.0.0.1:8000", json=payload)
+    # data = resp.json()
+    # actual_probability = float(data.get("probability"))
+    # actual_label = data.get("label")
+
     actual_probability, actual_label = risk_calculation(n_dbt, n_spo2, n_temp, n_age, n_hrate)
 
     logger.info(
